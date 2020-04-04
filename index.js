@@ -33,10 +33,34 @@ const main = async () => {
   alfy.output(
     captures.map(
       capture => ({
+        uid: capture.image_id,
         title: (capture.metadata && capture.metadata.title) || capture.desc || capture.created_at,
         subtitle: capture.permalink_url,
         arg: capture.permalink_url,
-        icon: { path: `./thumb/${capture.image_id}` }
+        icon: { path: `./thumb/${capture.image_id}` },
+        quicklookurl: capture.url,
+        mods: {
+          cmd: {
+            arg: capture.permalink_url,
+            subtitle: 'Copy permalink URL'
+          },
+          shift: {
+            arg: capture.url,
+            subtitle: 'Copy image URL'
+          },
+          ctrl: {
+            arg: `[![Image from Gyazo](${capture.url})](${capture.permalink_url})`,
+            subtitle: 'Copy as Markdown'
+          },
+          alt: {
+            arg: `https://gyazo.com/search/${encodeURIComponent(alfy.input)}`,
+            subtitle: 'Open search page in Gyazo'
+          }
+        },
+        text: {
+          copy: 'https://www.alfredapp.com/ (text here to copy)',
+          largetype: 'https://www.alfredapp.com/ (text here for large type)'
+        }
       })
     )
   )
