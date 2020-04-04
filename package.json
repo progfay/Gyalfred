@@ -1,0 +1,27 @@
+{
+  "name": "alfred-gyazo-workflow",
+  "version": "1.0.0",
+  "description": "Alfred workflow for searching Gyazo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/progfay/alfred-gyazo-workflow.git"
+  },
+  "keywords": [
+    "alfred",
+    "nodejs",
+    "workflow"
+  ],
+  "author": "progfay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/progfay/alfred-gyazo-workflow/issues"
+  },
+  "homepage": "https://github.com/progfay/alfred-gyazo-workflow#readme",
+  "dependencies": {
+    "alfy": "^0.9.1"
+  }
+}
