@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/progfay/alfred-gyazo-workflow#readme",
   "dependencies": {
-    "alfy": "^0.9.1"
+    "alfy": "^0.9.1",
+    "node-fetch": "^2.6.0"
   }
 }
