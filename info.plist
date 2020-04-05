@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.progfay.gyazo</string>
+	<string>com.progfay.gyalfred</string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
@@ -65,11 +65,11 @@
 	<key>createdby</key>
 	<string>progfay</string>
 	<key>description</key>
-	<string>Search in Gyazo</string>
+	<string>Search your Gyazo images with Alfred Workflow.</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Gyazo</string>
+	<string>Gyalfred</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -212,7 +212,7 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Search your Gyazo images with Alfred Workflow.</string>
 	<key>uidata</key>
 	<dict>
 		<key>14DA39C2-4D5E-46F9-9ABC-4E07AF7C012C</key>
@@ -263,9 +263,11 @@
 		<key>Gyazo_session</key>
 		<string>PLEASE_ENTER_Gyazo_session_HERE</string>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string></string>
+	<string>0.0.1</string>
 	<key>webaddress</key>
-	<string>https://gyazo.com</string>
+	<string>https://github.com/progfay/Gyalfred</string>
 </dict>
 </plist>
