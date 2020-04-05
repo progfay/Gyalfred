@@ -34,3 +34,18 @@ Keyword: `Gyazo [word]`
 - `⌃ + ↵` : Copy Gyazo image URL as Markdown ( `[![Image from Gyazo](https://i.gyazo.com/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.jpg)](https://gyazo.com/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx)` )
 - `⌥ + ` : Open search page in gyazo.com ( `https://gyazo.com/search/[word]` )
 - [Quick Look](https://www.alfredapp.com/help/features/previews/) : Preview Gyazo image ( `https://gyazo.com/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.png` )
+
+
+## For Developer
+
+### Build
+
+To make `Gyalfred.alfredworkflow` ,
+
+```sh
+./build.sh
+```
+
+If you don't want to include any file for build, add file matching pattern to `.alfredignore`
+
+

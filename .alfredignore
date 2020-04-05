@@ -1,0 +1,9 @@
+.alfredignore
+.git/*
+.gitignore
+Gyalfred.alfredworkflow
+README.md
+build.sh
+package-lock.json
+package.json
+thumb/*
