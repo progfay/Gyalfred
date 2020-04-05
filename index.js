@@ -13,6 +13,8 @@ const main = async () => {
   )
   const { captures } = await response.json()
 
+  if (!fs.existsSync('./thumb')) fs.mkdirSync('./thumb')
+
   Promise.all(
     captures.map(
       ({ image_id }) => {
