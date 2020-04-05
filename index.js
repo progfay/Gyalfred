@@ -56,10 +56,6 @@ const main = async () => {
             arg: `https://gyazo.com/search/${encodeURIComponent(alfy.input)}`,
             subtitle: 'Open search page in Gyazo'
           }
-        },
-        text: {
-          copy: 'https://www.alfredapp.com/ (text here to copy)',
-          largetype: 'https://www.alfredapp.com/ (text here for large type)'
         }
       })
     )
