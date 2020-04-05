@@ -258,6 +258,13 @@
 			<integer>445</integer>
 		</dict>
 	</dict>
+	<key>variables</key>
+	<dict>
+		<key>Gyazo_session</key>
+		<string>PLEASE_ENTER_Gyazo_session_HERE</string>
+	</dict>
+	<key>version</key>
+	<string></string>
 	<key>webaddress</key>
 	<string>https://gyazo.com</string>
 </dict>
